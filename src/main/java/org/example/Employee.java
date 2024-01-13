@@ -5,28 +5,6 @@ import java.util.Objects;
 
 public class Employee {
     private final String firstName;
-
-    public String getGender() {
-        return gender;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-
-    public String getDepartmentName() {
-        return departmentName;
-    }
-
-    public int getNumProjectsAllocated() {
-        return numProjectsAllocated;
-    }
-
-    public List<String> getContacts() {
-        return contacts;
-    }
-
     private final String lastName;
     private final String gender;
     private final int age;
@@ -42,6 +20,27 @@ public class Employee {
         this.departmentName = departmentName;
         this.numProjectsAllocated = numProjectsAllocated;
         this.contacts = contacts;
+    }
+
+
+    public String getGender() {
+        return gender;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getDepartmentName() {
+        return departmentName;
+    }
+
+    public int getNumProjectsAllocated() {
+        return numProjectsAllocated;
+    }
+
+    public List<String> getContacts() {
+        return contacts;
     }
 
     @Override
